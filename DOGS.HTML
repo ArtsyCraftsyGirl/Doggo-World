@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doggo World</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Roboto',sans-serif;
+background:#fff8f0;
+color:#333;
+line-height:1.6;
+}
+
+a{text-decoration:none;color:#ff6b6b;}
+
+header{
+background:#ff9f1c;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:center;
+background:#fff3e0;
+padding:10px;
+}
+
+nav a{
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+padding:40px;
+}
+
+.dog-gallery{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.dog-gallery img{
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 4px 8px rgba(0,0,0,0.2);
+transition:transform .3s;
+}
+
+.dog-gallery img:hover{
+transform:scale(1.05);
+}
+
+.blogs{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.blog-card{
+background:#fff3e0;
+padding:20px;
+border-radius:10px;
+margin-bottom:30px;
+box-shadow:0 4px 6px rgba(0,0,0,0.1);
+}
+
+.blog-card h3{
+color:#ff6b6b;
+margin-bottom:10px;
+}
+
+.read-more{
+display:inline-block;
+background:#ff6b6b;
+color:white;
+padding:8px 15px;
+border-radius:5px;
+margin-top:10px;
+cursor:pointer;
+}
+
+.full-text{
+display:none;
+margin-top:15px;
+}
+
+footer{
+background:#ff9f1c;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🐶 Doggo World</h1>
+<p>Blog by Ehllen Joy Quezada </p>
+</header>
+
+<nav>
+<a href="#blog1">Dog Love</a>
+<a href="#blog2">Puppy Care</a>
+<a href="#blog3">Pet Loss</a>
+</nav>
+
+<section class="hero">
+<div class="dog-gallery">
+<img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400">
+<img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400">
+<img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?w=400">
+<img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400">
+</div>
+</section>
+
+<section class="blogs">
+
+<!-- BLOG 1 -->
+<div class="blog-card" id="blog1">
+
+<h3>5 Signs Your Dog Loves You 🐶</h3>
+
+<p>You might think your dog just follows you around because they're bored? <p></p> What if those little actions are their way of saying... 
+<em>I LOVE YOU?</em> <p></p>Dogs can’t speak in words, but their behavior can tell you more about their feelings than you might expect. Here are 5 surprising ways your dog shows unconditional love.</p>
+
+<div class="full-text">
+
+<p><b>1. They follow you everywhere.</b><br>
+Dogs are naturally social animals and form strong attachments to their owners. 
+When your dog follows you from room to room, it often means they feel safest around you. 
+In canine psychology, this behavior is called “social bonding.” Your dog sees you as a trusted leader and part of their pack. 
+Being near you gives them comfort, security, and happiness.</p>
+<br>
+<p><b>2. They wag their tail when they see you.</b><br>
+A wagging tail is one of the most recognizable signs of a happy dog. 
+However, not all tail wags are the same. A relaxed body posture combined with a wide, loose wag usually indicates excitement and affection. 
+When dogs greet their owners with this kind of tail wag, it shows genuine joy and emotional connection.</p>
+<br>
+<p><b>3. They make eye contact with you.</b><br>
+Eye contact between dogs and humans can release oxytocin—often called the “love hormone.” 
+This is the same hormone that strengthens the bond between parents and their children. 
+When a dog calmly looks into your eyes, it signals trust, comfort, and a deep emotional connection.</p>
+<br>
+<p><b>4. They choose to sleep near you.</b><br>
+Dogs instinctively sleep near those they trust. In the wild, pack members sleep together for safety and warmth. 
+If your dog chooses to sleep beside you or near your bed, it means they consider you part of their family and feel secure in your presence.</p>
+<br>
+<p><b>5. They sense when you're sad and try to comfort you.</b><br>
+Many dogs are highly sensitive to human emotions. They can detect changes in tone, facial expressions, and body language. 
+When you're feeling down, a loving dog might stay close, rest their head on you, or quietly sit beside you. 
+This empathetic behavior is one of the reasons dogs are often used as therapy and emotional support animals.</p>
+<br>
+<p><b>Every tail wag, every nuzzle, every quiet moment they spend beside you is their way of saying: “You are my whole world.”</b>  
+Recognizing these signs helps us appreciate the incredible emotional intelligence and unconditional love dogs give us every day.</p>
+
+</div>
+
+<a class="read-more">Read More</a>
+
+</div>
+
+
+<!-- BLOG 2 -->
+
+<div class="blog-card" id="blog2">
+
+<h3>How to Take Care of a Puppy (Beginner Guide) 🐾</h3>
+
+<p>Bringing a puppy home is one of life’s most exciting—and sometimes chaotic—moments. Tiny paws, wiggly tails, and curious little noses everywhere… it’s adorable, yes, but also full of responsibility. Are you ready to dive in and give your new best friend all the love and care they deserve?</p>
+
+<p><b>Okay, here we go!</b></p>
+
+<div class="full-text">
+
+<p>First things first: <b>you have to know puppies are little energy machines.</b> They need proper nutrition to fuel all that playing, exploring, and learning. A balanced diet designed just for their growing bodies gives them the best start in life—and keeps you from worrying about cranky, hungry pups.</p>
+<br>
+<p>Next up: <b>create a safe zone.</b> Puppies don’t yet know what’s dangerous (or what’s yours to chew!). Puppy-proof your home, stash away anything breakable, and give them a cozy little corner to call their own. Feeling safe helps them explore the world with confidence—and prevents a few “oops” moments along the way.</p>
+<br>
+<p><b>Training early</b> is a game-changer. Teaching simple commands like sit, stay, and come isn’t just about obedience—it’s how you and your puppy start talking to each other. Trust me, those tiny victories will make both of you feel like superheroes.</p>
+<br>
+<p>Don’t forget <b>socialization!</b> Introduce your pup to new people, other dogs, and different environments. Positive experiences early on help them grow into confident, friendly dogs who aren’t afraid of life’s surprises (or vacuum cleaners).</p>
+<br>
+<p>And the most important thing: <b>love and patience.</b> Puppies are learning EVERYTHING for the first time. They’ll make mistakes, chew your shoes, and test your limits—but every snuggle, tail wag, and happy bark reminds you that they’re learning to trust and love you in return.</p>
+<br>
+<p><b>Raising a puppy is messy, exhausting, and sometimes a little crazy—but it’s also one of life’s sweetest adventures. Every paw print on your heart is proof that unconditional love has entered your home. The bond you build today will last a lifetime—and you wouldn’t trade it for the world.</b></p>
+
+</div>
+
+<a class="read-more">Read More</a>
+
+</div>
+
+<!-- BLOG 3 -->
+
+<!-- BLOG 3 -->
+
+<div class="blog-card" id="blog3">
+
+<h3>How to Cope with the Loss of a Beloved Pet 💛</h3>
+
+<p>Losing a pet is like losing a piece of your heart. One day, they’re there—tail wagging, paws at your side, eyes full of unconditional love—and the next, silence fills the space they once owned. It’s confusing, painful, and incredibly lonely.</p>
+
+<p><b>Here are my steps to cope with the sadness:</b></p>
+
+<div class="full-text">
+
+<p><b>Allow yourself to grieve.</b> There is no “right” way to mourn a pet. Your tears, your sadness, your heartache—they are all valid. Loving a pet means opening your heart completely, and it hurts when that love is no longer physically with you.</p>
+<br>
+<p><b>Remember the happy moments.</b> Think about the walks, the gentle nuzzles, the goofy little antics, and the quiet cuddles. Every memory is a testament to the bond you shared, one that even time cannot erase.</p>
+<br>
+<p><b>Create a small tribute.</b> Some people frame a favorite photo, plant a tree, or write down memories of their beloved companion. These acts give your grief a space to breathe and honor the life they lived by your side.</p>
+<br>
+<p><b>Talk about your feelings.</b> Share stories with friends, family, or fellow pet lovers. Speaking their name, telling their stories, laughing and crying over the memories—this is how their spirit lives on in your heart.</p>
+<br>
+<p><b>Hold onto their love.</b> Even though they are gone, the love they gave you remains. Every paw print they left on your life stays there forever. Your pet may have only been part of your life, but to them, you were their entire world. And in that love, there is something eternal—something that no goodbye can ever take away.</p>
+<br>
+<p><b>Hold onto their love.</b> Even though they are gone, the love they gave you remains. Every paw print they left on your life stays there forever. Your pet may have only been part of your life, but to them, you were their entire world. And in that love, there is something eternal—something that no goodbye can ever take away.</p>
+<br>
+<p class="quotable"><i>“The paw prints they leave on your heart are forever, and in every beat, they are still with you.”</i></p>
+<p> ~Ehllen Joy Quezada
+
+</div>
+
+<a class="read-more">Read More</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Doggo World | Created by Ehllen Joy Quezada 🐾</p>
+<p>Contact: <a href="mailto:ehllenjoyquezada.creative@gmail.com">
+ehllenjoyquezada.creative@gmail.com</a></p>
+</footer>
+
+<script>
+
+const buttons=document.querySelectorAll(".read-more");
+
+buttons.forEach(button=>{
+button.addEventListener("click",()=>{
+
+const text=button.previousElementSibling;
+
+if(text.style.display==="block"){
+text.style.display="none";
+button.textContent="Read More";
+}else{
+text.style.display="block";
+button.textContent="Show Less";
+}
+
+});
+});
+
+</script>
+
+</body>
+</html>
